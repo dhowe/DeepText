@@ -1,0 +1,1222 @@
+
+u?PPTT:xx::xx::uu:xx:::xAAddIIIxxxxWWWWuuu,,HHHH;;;;0001ttOOOOOObbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+Epoch: 0
+
+/Users/dhowe/tensorflow/lib/python2.7/site-packages/keras/models.py:851: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  warnings.warn('The `nb_epoch` argument in `fit` '
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 3.8241
+
+T ee eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+Epoch: 1
+
+Epoch 1/1
+307/307 [==============================] - 20s - loss: 3.1918
+,
+
+Epoch: 2
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 3.1547
+R
+
+Epoch: 3
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 3.1379
+t
+
+Epoch: 4
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1270
+a
+
+Epoch: 5
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1189
+P
+
+Epoch: 6
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 3.1006
+?
+
+Epoch: 7
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 3.0836
+?    e     te   the    te   the    te    te   the   the   the   the    te    te   the   the   the   the    te    the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the   the
+
+Epoch: 8
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 3.0512
+v e eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+Epoch: 9
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 3.0305
+L  e  e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e   Traceback (most recent call last):
+  File "recurrent_keras.py", line 71, in <module>
+    # Else, loading the trained weights and performing generation only
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/keras/models.py", line 733, in save_weights
+    raise ImportError('`save_weights` requires h5py.')
+ImportError: `save_weights` requires h5py.
+(tensorflow) dhowe@slipper:text-generator [master]$
+(tensorflow) dhowe@slipper:text-generator [master]$
+(tensorflow) dhowe@slipper:text-generator [master]$ pip install h5py
+ 👍 7
+
+Collecting h5py
+  Downloading h5py-2.7.0-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (4.5MB)
+    100% |████████████████████████████████| 4.5MB 248kB/s
+Requirement already satisfied: numpy>=1.7 in /Users/dhowe/tensorflow/lib/python2.7/site-packages (from h5py)
+Requirement already satisfied: six in /Users/dhowe/tensorflow/lib/python2.7/site-packages (from h5py)
+Installing collected packages: h5py
+Successfully installed h5py-2.7.0
+(tensorflow) dhowe@slipper:text-generator [master]$  👍 7
+-bash: 👍: command not found
+(tensorflow) dhowe@slipper:text-generator [master]$
+(tensorflow) dhowe@slipper:text-generator [master]$ pip install h5py
+Requirement already satisfied: h5py in /Users/dhowe/tensorflow/lib/python2.7/site-packages
+Requirement already satisfied: numpy>=1.7 in /Users/dhowe/tensorflow/lib/python2.7/site-packages (from h5py)
+Requirement already satisfied: six in /Users/dhowe/tensorflow/lib/python2.7/site-packages (from h5py)
+(tensorflow) dhowe@slipper:text-generator [master]$ fpy recurrent_keras.py
+Using Theano backend.
+Creating training data
+Data length: 15385 characters
+Vocabulary size: 68 characters
+{0: '\x80', 1: '\n', 2: 'R', 3: '\x9d', 4: '\x9c', 5: '!', 6: ' ', 7: "'", 8: ')', 9: '(', 10: '-', 11: ',', 12: '.', 13: '1', 14: '0', 15: '4', 16: '9', 17: ';', 18: ':', 19: '?', 20: 'A', 21: 'C', 22: 'B', 23: 'E', 24: 'D', 25: 'G', 26: 'F', 27: 'I', 28: 'H', 29: 'K', 30: 'J', 31: 'M', 32: 'L', 33: 'O', 34: 'N', 35: 'P', 36: 'S', 37: '\xe2', 38: 'T', 39: 'W', 40: 'V', 41: 'Y', 42: 'a', 43: 'c', 44: 'b', 45: 'e', 46: 'd', 47: 'g', 48: 'f', 49: 'i', 50: 'h', 51: 'k', 52: 'j', 53: 'm', 54: 'l', 55: 'o', 56: 'n', 57: 'q', 58: 'p', 59: 's', 60: 'r', 61: 'u', 62: 't', 63: 'w', 64: 'v', 65: 'y', 66: 'x', 67: 'z'}
+Creating and compiling the Network
+Generating a sample before training...
+generate_text(model, args['generate_length'], VOCAB_SIZE, ix_to_char)
+^CwLtt??aaeeewwtttiiiiCC????MMssVVVVzzzz!!ooo????lllllrrBBnn0000Tmmrr9EEEEEEE!IIIffffffffeeeLSSiiiiieeeewLLqittiii?e?ee?ekkqkkrrrrEEEEEEEE!ITraceback (most recent call last):
+  File "recurrent_keras.py", line 53, in <module>
+    generate_text(model, args['generate_length'], VOCAB_SIZE, ix_to_char)
+  File "/Users/dhowe/git/text-generator/RNN_utils.py", line 14, in generate_text
+    ix = np.argmax(model.predict(X[:, :i+1, :])[0], 1)
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/keras/models.py", line 916, in predict
+    return self.model.predict(x, batch_size=batch_size, verbose=verbose)
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/keras/engine/training.py", line 1594, in predict
+    batch_size=batch_size, verbose=verbose)
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/keras/engine/training.py", line 1218, in _predict_loop
+    batch_outs = f(ins_batch)
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/keras/backend/theano_backend.py", line 1196, in __call__
+    return self.function(*inputs)
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/theano/compile/function_module.py", line 884, in __call__
+    self.fn() if output_subset is None else\
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/theano/scan_module/scan_op.py", line 963, in rval
+    r = p(n, [x[0] for x in i], o)
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/theano/scan_module/scan_op.py", line 952, in p
+    self, node)
+  File "theano/scan_module/scan_perform.pyx", line 586, in theano.scan_module.scan_perform.perform (/Users/dhowe/.theano/compiledir_Darwin-14.5.0-x86_64-i386-64bit-i386-2.7.13-64/scan_perform/mod.cpp:6946)
+  File "/Users/dhowe/tensorflow/lib/python2.7/site-packages/theano/tensor/type.py", line 552, in value_zeros
+    def value_zeros(self, shape):
+KeyboardInterrupt
+(tensorflow) dhowe@slipper:text-generator [master]$ fpy recurrent_keras.py
+Using Theano backend.
+Creating training data
+Data length: 15385 characters
+Vocabulary size: 68 characters
+{'\x80': 0, '\n': 1, '\x9d': 3, '\x9c': 4, '!': 5, ' ': 6, "'": 7, ')': 8, '(': 9, '-': 10, ',': 11, '.': 12, '1': 13, '0': 14, '4': 15, '9': 16, ';': 17, ':': 18, '?': 19, 'A': 20, 'C': 21, 'B': 22, 'E': 23, 'D': 24, 'G': 25, 'F': 26, 'I': 27, 'H': 28, 'K': 29, 'J': 30, 'M': 31, 'L': 32, 'O': 33, 'N': 34, 'P': 35, 'S': 36, 'R': 2, 'T': 38, 'W': 39, 'V': 40, 'Y': 41, 'b': 44, 'a': 42, 'c': 43, '\xe2': 37, 'e': 45, 'd': 46, 'g': 47, 'f': 48, 'i': 49, 'h': 50, 'k': 51, 'j': 52, 'm': 53, 'l': 54, 'o': 55, 'n': 56, 'q': 57, 'p': 58, 's': 59, 'r': 60, 'u': 61, 't': 62, 'w': 63, 'v': 64, 'y': 65, 'x': 66, 'z': 67}
+{0: '\x80', 1: '\n', 2: 'R', 3: '\x9d', 4: '\x9c', 5: '!', 6: ' ', 7: "'", 8: ')', 9: '(', 10: '-', 11: ',', 12: '.', 13: '1', 14: '0', 15: '4', 16: '9', 17: ';', 18: ':', 19: '?', 20: 'A', 21: 'C', 22: 'B', 23: 'E', 24: 'D', 25: 'G', 26: 'F', 27: 'I', 28: 'H', 29: 'K', 30: 'J', 31: 'M', 32: 'L', 33: 'O', 34: 'N', 35: 'P', 36: 'S', 37: '\xe2', 38: 'T', 39: 'W', 40: 'V', 41: 'Y', 42: 'a', 43: 'c', 44: 'b', 45: 'e', 46: 'd', 47: 'g', 48: 'f', 49: 'i', 50: 'h', 51: 'k', 52: 'j', 53: 'm', 54: 'l', 55: 'o', 56: 'n', 57: 'q', 58: 'p', 59: 's', 60: 'r', 61: 'u', 62: 't', 63: 'w', 64: 'v', 65: 'y', 66: 'x', 67: 'z'}
+Creating and compiling the Network
+Generating a sample before training...
+generate_text(model, args['generate_length'], VOCAB_SIZE, ix_to_char)
+ulggg4GOOO''HHH?????)AA))MMMMMMMPPPDDDDcDDDDcHHHHKK440Y0Y?0ggggggttIIIIII444CCCfFFF11KK4441CC1111!!!CCsss444DDcMMc?????WWyyWWWttt????kxxxc0GGaaaaaaaaAaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAaaaaaaaaaAa
+
+Epoch: 0
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.9585
+j ee      eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+Epoch: 1
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1933
+.
+
+Epoch: 2
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1562
+J e      eee ee e e e  e  e  e  e  e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e  e  e e
+
+Epoch: 3
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1396
+v
+
+Epoch: 4
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1387
+k
+
+Epoch: 5
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1139
+y    eeeeeee eee ee ee eee eee eeee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee eee
+
+Epoch: 6
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.1067
+g
+
+Epoch: 7
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.0887
+i    ee      e     e     e      e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e     e
+
+Epoch: 8
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.0674
+,    ee   e  e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e    e
+
+Epoch: 9
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 3.0541
+F  he  he  hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh   hh
+
+Epoch: 10
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 3.0052
+De  aa  ar  ar  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar  aa  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar  aa  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar  aa  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar  aa  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar  aa  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar  aa  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar  aa  aa  aa  aa  ar  ar  ar  aa  aa  aa  aa  ar  aa  a a  ar
+
+Epoch: 11
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.9271
+t  he  oe  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  oo  o
+
+Epoch: 12
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.9270
+Ea  te te tin the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the th
+
+Epoch: 13
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 2.8246
+a  an the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the th
+
+Epoch: 14
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 2.7276
+Re  an the an  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  ae  a
+
+Epoch: 15
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.6668
+4 an  he the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the
+
+Epoch: 16
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.6142
+San the and an the and and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and an the and
+
+Epoch: 17
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.6283
+1 an the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the
+
+Epoch: 18
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.5280
+.
+
+
+
+he the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the
+
+Epoch: 19
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.5277
+De the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the t
+
+Epoch: 20
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.4540
+An the he lere an he whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe lore he he the whe
+
+Epoch: 21
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.4667
+xe the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the t
+
+Epoch: 22
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.4127
+d  the s and the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the
+
+Epoch: 23
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.3991
+The the thethenthethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethethetheth
+
+Epoch: 24
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.3792
+De the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the t
+
+Epoch: 25
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.3299
+J an the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s and the s
+
+Epoch: 26
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.3203
+We the singe and the singe and the sing the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the
+
+Epoch: 27
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.2942
+Me the bind the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond the bond th
+
+Epoch: 28
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.2845
+ing houd whe hing whas houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing houd whe hing h
+
+Epoch: 29
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.2574
+le the son the ho the he the son the son the son the son the son the son the son the son the son the he the he the he the son the son the son the son the son the son the son the son the son the son the he the he the he the son the son the son the son the son the son the son the son the son the son the he the he the he the son the son the son the son the son the son the son the son the son the son the he the he the he the son the son the son the son the son the son the son the son the son the son
+
+Epoch: 30
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.2320
+ce the fare bouke and the bouke an the fare fouke and the bouke an the fare fouf fouke and the bouke an the fare whe bouke and the bouke an the fare whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an the ware whe bouke and the bouke an
+
+Epoch: 31
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.2057
+re the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen the singen th
+
+Epoch: 32
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.1813
+an the sind the hist and the his the sing the hist and the his the sing the his the sint the sind the hist and the his the sing the his the sint the sind the hist and the his the sing the his the sint the sind the hist and the his the sing the his the sint the sind the hist and the his the sing the his the sint the sind the hist and the his the sing the his the sint the sind the hist and the his the sing the his the sint the sind the hist and the his the sing the his the sint the sind the hist a
+
+Epoch: 33
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.1647
+ze the s
+The sees in the s
+The sees the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+The sees in the s
+
+Epoch: 34
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.1386
+me the sond the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond the sond the s
+And the sore the sond the sond
+
+Epoch: 35
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.1283
+je the saather and the saather the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the saather and the s
+
+Epoch: 36
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 2.1141
+t and the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the th
+
+Epoch: 37
+
+Epoch 1/1
+307/307 [==============================] - 10s - loss: 2.0787
+je the sene the soun the soun the soulles the soun the soulles the ghee the loul the ghee the loul the ghe the sene the gore the he the soulles the ghee the soull the goull the ghe the sengere the ghe lone the soulles the ghe the soulles the ghee the soull the ghoul the ghe the sengere the sene the soulles the goun the soulles the goun the soulles the goun the soulles the goun the soulles the goun the soulles the goun the soulles the goun the soulles the goun the soulles the goun the soulles the
+
+Epoch: 38
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 2.0525
+,
+
+What wat  of the wore the sean the soun the seat the seath wall whe heat we seat the seath wall whe heat the seath the seath wall whe wath we the seat we seat the seath the seath wall whe heat we seat the seath we the seat the seath the seath wall whe heat
+The sond the se the were what wall whe the seat  of the wand the seat the seath wall whe heat the seath the seath wall whe the seat the seath wall whe heat the seath the seath wall whe heat  of seath the seath we the wand the seat the s
+
+Epoch: 39
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 2.0379
+4
+
+The sond the sumling and the tour and the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the toud the the
+
+Epoch: 40
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 2.0180
+ver and the sander
+And the son maving in the son the sand the son the sonder of sinding to sonder of the sand the son the sanding the sonder of of sind the son the sanding to sonder of of sinding to sonder of of sinding to sonder of of maming to the son mavering to sond to s
+
+
+Whe s of the manding the sond the sonder
+And the son mavinging to soner of of maming to the son the sanding to sond the sanding to sond the son the sanding to sonder of of sinding to sonder of of maming to sond the sand
+
+Epoch: 41
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.9994
+!
+
+The suag the seat the suat the saad the suat the seat the seat the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad the saad t
+
+Epoch: 42
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.9793
+I  hear dear of hear of are
+And the surter
+And the sunder of hear of hear the seather
+And the sond the seared of hear of hear of hear
+And the sur and sear of hear
+And the surter
+And the sunder of hear of hear the seather
+And the sond the seared of hear of hear of hear
+And the sur and sear of hear
+And the surter
+And the sunder of hear of hear the seather
+And the sond the seared of hear of hear of hear
+And the sur and sear of hear
+And the surter
+And the sunder of hear of hear the sea
+
+Epoch: 43
+
+Epoch 1/1
+307/307 [==============================] - 13s - loss: 1.9317
+4
+
+Where whore where there whores of of hear the senters of there ward these whores of the senther of the rorders of the sores of the roudh the songerers of the wand the sores of the rondes the songry of there thesesteres of lover of hes the lover of the renther on the rores of the send the sores of the roudhed the sores of the rorded the songry of there thend the sorly of rearther on the lores of the sended the sorers of hereresteres on the rorther of the songeres of there theresteres of the r
+
+Epoch: 44
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.9223
+un the seath whe sen whe seat were whe soud whe seat whe seat of the seath the seath whe seat whe seat of she the wind the seath whe seat of sire in the sood wall
+And the whe the soud of ere
+The song the soud sear
+Whot wath the seate the send the soud of free
+Whe sing the soull of the she seat of are
+Succung in the soud sear
+Whe s whowe whe sees the sing the saad wald
+The she the soud sear with and all all are
+The she the soul of ere
+The song the soud seer with wath alous are
+The she
+
+Epoch: 45
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.9084
+ceand the panded and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the paand and the
+
+Epoch: 46
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.8834
+,
+The sean the e sear the sene the sene the seath and the sene the s and the sean the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the sene the
+
+Epoch: 47
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.8447
+4
+
+It the panting and the senger to sand and the santer the seares
+In the panting in the sen and the santing in the sand the seather the seath and the sanger and the santing
+The spapone the  or the the the seake and and and the seat of seaping and the sant of the and the seamang and the sant of the perant the seamang and the sant of the seather the sanking and the senter to shares and the parang and the searing and the sant of the and the seames and the ware and s and the seather the sangin
+
+Epoch: 48
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.8288
+Pe the ture tour toun toun to heat the ture tour and the toun the ture tour hear the tout the ture tour dear the toun the ture tour hear the tout the ture tour aring and the tur ture
+The gough the tool tole to hear the tour ture to hear the toul the t our aring in the thow tole
+The guroud toe  on the toud tour and the toud tour dear to hear thee
+
+tore waigh the toon the ture ture tour to heat the tur ture dear to hear the tur ture dear to hear the tur ture dear to hear the tur ture dear
+
+Epoch: 49
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.8072
+s and the gaster of a sumping in the ball s log a
+Will ging
+In the bor s all a  hough
+Wing the and the goon comes
+Will and the sond song co fall
+And the gond the goon foum
+And the gore and the goon a sunging
+Wo s all the goom the ging
+What mas an the gome an the gisted and the gast of hear
+And the gond the goon foum
+The good the songer of sumper in the sand the gas an the gisting
+Wo the bood a sumping in the blool a s apping in
+And the bor s all an a ghe the ging to s
+The goom an
+
+Epoch: 50
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.7486
+me the senes the sunger
+What sene the senger of the ben the tones sollong
+
+In the tane toll of thor
+
+
+In the tone toll of thor
+
+
+On the toll toll of the
+
+
+Ont the toll toll of the
+
+
+Ont the toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to loor
+
+In the tone toll to
+
+Epoch: 51
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.7477
+le the sond here whore whore of hore
+The sores of the wirlly of look
+Theigh the sereren of hor here ther tore
+Whole whor here of the word here of hor hor hores
+The sore whore whore wall of lood
+Then the sere
+The soollerelong the sor
+Will in the s wall
+The sowlle   orls and the ser tore
+These were on the word of looked and the send of their beron the word of the word
+Will and the s ware
+Their hererelong the worl
+Will and the
+Ther where whore whore whor hor hores
+And the word soor
+
+Epoch: 52
+
+Epoch 1/1
+307/307 [==============================] - 13s - loss: 1.7030
+ze the seate and the heat to feat
+And the home to love to love
+
+
+
+to loul the Dove to he to love and the deate arove
+
+
+the soulle to love to he to love a the head to the head to hear the hear the heath the sunded to love a oul to peapt
+
+
+An the love the love to he to love and the s
+And the home to he hear to hear the pares
+And the love aight to leate a seal and the love
+Will to hear to hear the heate hear to hear the peate to seave
+
+
+
+the soulle to love to hear the heare and the lasted a
+
+Epoch: 53
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.6735
+!
+
+In the borning and of loof ang cond colloor ang and cond of love
+What wall of aagh and count of fore
+
+The surure aroung and the boon
+Wones
+Whough and the bornough and calloor angh and counted and count of haring and wall of lagg and count of soug
+
+The warlore ang and counted and core and callour angung and colloou
+  macing and the goreate count
+And the farn and halked ang all and ang coof of foud
+And the born and halkoor a ghean and could and count of the borning colkoon a gall of
+
+Epoch: 54
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.6602
+K and salk ar and has sur,
+The sares are srar and hay sur ar sass,
+And the lord sand sur, ar har har sur,
+The sares are srarinias and the sasturs surs,
+Will and the sars the sur,
+And the rost the sear trers ar har
+Whar in the sraat the saster of sursinin,
+What there are srar ar har
+And the sards are sraring and the sars are sraring in the sat the rasss,
+Whar in a surper and the sear,
+The saacund the sars ar surs an the hard the seas ar urrers and the surt and sacker ar ard har har sur,
+
+Epoch: 55
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.6164
+Ne the seanes
+The see
+Tiss of the the seaded and sear
+Ane the men whe lighed deer
+And the were hear of the meme
+Wele were wires freete
+
+The hee wead the seat
+The mese and the sead figet in the seapere the seame
+With towe ale the peades
+The ligh the sead of hear sears
+Ang the were hear of the meme
+Wele were were free he here
+Whe lowe a peaved to mer
+Whe hires the seaped and the semen like a megh
+We seal the hireded trees
+And the were well of the meme
+Whes the seape fealld t
+
+Epoch: 56
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.5724
+Sthe thee
+Will ghe whowe to n whole of of inging in and the towllow lllloollong
+Thoug the towe toll tollld of of ing in in a wat towe tollles
+Though in in the towl toll tollloof of ough in and the towllow tollly of oughing in and the towllow tollly of ough in in and the towllot lollloold ond wing in the towlor tollly of ough in in and the towllot lollloold ond wing in the towlol tollly of ough in in and the towllot lollloold ond wing in the towlol tollly of ough in in and the towllot lo
+
+Epoch: 57
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.5561
+
+
+Where sules aressalles and sunge and sillight are sleep of the sur walked all seals and salls all all ard sands and slepe a seaps and the sur love
+sisting andes all the sardes and senger srees like a llok,
+The gheaghe trees srees are all all a wand
+And the sur sears and the slale a pragning andes the sur sears and slike and the slad ward
+And s
+The srean ale slass, and the sar lood
+And the lone allos, a sullong and sands
+And the sumen ale likelas and the sar wares
+And the lore allos
+
+Epoch: 58
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.5044
+weath
+And the tone and the sen of the tind in the sine conch the sond of the pinds in the slacl of the to den the ponder in the slanon with the sing
+What swand and the sinning ind the sran wore
+And the preening in the slacon with the sing
+What swand and the sind in the sind of the pind in the slace and the summer
+And the praning in the slall of the to the
+The some with the sen,
+The sheath the seng in the slan in the sind of the pind.
+
+In the long in the the town of the pind to the si
+
+Epoch: 59
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.4599
+y and chent of the town the s mare and the tree
+tren ather tree ing fur frart
+With and the sungrer the the light are lay
+And the the ligt and the sum leve
+
+the long then the the mert and the light in the rart of the the the light in the sun loke
+
+Tho she light in the bet ather then like ligh ale are whith men ather my marth and the lack lank and shape and the last and chather the love with wat weth at water
+treer and the ling dearumary the the livell so grakk
+  thow  wher
+tre r
+
+Epoch: 60
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.4626
+-
+
+Whe soug the sees of the wead wall of leagur
+These greppelle wer
+Whese goof fulles around was like a wat le fee to serser
+Whell we leal fut lome he fame here were whill on the gied tour fees
+The semen wall fll ge good tunes,
+Toome ie he heat the seat of heare and the fall to loof of eere
+The peckee wall and the mee toofed
+Toumes of the tree te te wead the giele and the fees of the fireles
+Whes  of the field to sead wat ful fear comes
+What seme we leath of ees in the figele
+
+Epoch: 61
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.3989
+quere
+If the pare the hood tond the pardes
+What seaphear of love whome and the girden and seape
+The saad the s and the grean a rourd of she preen
+What sumere wall of marning and the sar are fas
+
+I  wase whe haveratur wird the harer ard shappore were
+And the love a farl
+Whe salles
+The same hear of herd the pardees
+Whas seaned the Deand the pardee and she preath
+Our are fade a sumple in a hour deads
+And the mande and the green and chear damn.
+
+
+
+Ats the hould and the sender the gard
+
+Epoch: 62
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.3447
+Je the blist and the attereate the tird heared at it thear thetertere dears ar in the trather the seass
+The lattrat the rithtereres if the reatheat the read
+The tirterattere traesherere chatere traesing in the thattrettither arring atherterterterter ere he hear the lithtererter in the herertattertired angere the reather the theer of hist in the thettretere deares
+The tirtlathert the seaked at it their thetertere treering athitht athere the treeth and the tittleat the tire of ather theterest b
+
+Epoch: 63
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.3138
+And the sun when the summeringing in and begord wasters braying indenay, und the peant fay hiver hin her to heart of seapther
+And wene we keal to mamper of head
+And the love livel on the peanone to stisther
+And rening the slakl of the to deat of sempery our ald the herous of the tome hear on head the sind he mond at the senerousher hembly
+With the towe appesstangine in the bed and the tour friening and hark of spaptes bores or hish wanks my beart and the parnous of singing and harks waste th
+
+Epoch: 64
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.3029
+le the sunter in the head of the summer
+Whe hathere the sunt of hears
+And the histly burres
+Whe lome with heat the sint are hare
+And the love like hourt
+We heal
+last ars ner the sun are heart and the histlears
+And wank the hather the summ
+Whe home hears the sing
+Whe loth atres
+Of the the hind hears
+And the list,
+
+
+Bat nane and the histere the sund of hist
+Wo hat mese and here the sun suncle wall
+Ot thest the sun sear of heart
+On the hist frem treen ant the heath of hire
+Whe hea
+
+Epoch: 65
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.2237
+E and chilled like loolls
+And the paster atrerartur ard the hores alous--AAck cumppacing the pares like lillly blalds and cood dead the pease come friestedery there wat lovenceat comppasing the seally le loth allust.
+
+And the pavilis a horling like a llall athead tour awing
+The pasted is a loveraly the sutoowawawilk A p s pappingice collly llll allast alous
+And cheap coxs the love, are the heron walk.
+A s mppeation coolles all the hool soud.
+And humpe the the pealis, anoked all like a thas
+
+Epoch: 66
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.2301
+reath and the hore of lood.
+
+And the love a share on all and and hast
+And the love who hour of here mere.
+
+And the love a fall of eare and love are and the parone
+Whote the son, and the horon and the seares
+Where mather and the and the sond the some of here mended
+The should the Devild and all are are and looked and the hord oor hore y
+And the love love love
+Wo he hear a sear and the e thoullong deads and the road love thomen and the hore and love to loke a dead athere andedery
+And d
+
+Epoch: 67
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.1384
+n the sun like whith mam mithing hit the sun but burning dander like light
+No shin benes
+tre light in the thwim minighthis the the min bir bear
+The light in the whill whith his lin lin bear
+And the sen love lis the mim miniththire her bliening
+Whis deal the summen in this hede
+These whone whe hom mon ithithin the sul like a rath
+stilling in the m mlin biththiir the his burning
+
+Whit le whe the men with hiilled meal
+A sended the sun like hith whit deme thistion
+The sin bear
+
+Epoch: 68
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.1342
+ke and seaped of the sees.
+
+But ster on the heron the hislerer
+Of the hean the hour of the sean of the hourter
+And the foel of the
+Whe lone wo love to the sees,
+
+Wren are the ser. In the fields
+co the grees of the hise on the seasen of the fires
+With the sleen of the gires the sun an and stant.
+That lover on the seeron were of their andered the soun of the sean of the histoner to siray
+Whes tree and rour of light
+  san your on the heron crasing for
+And the seals, whore and sen fore
+
+Epoch: 69
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.0519
+?
+The sasperas and she prast in the peaper
+sress are and the ranning the paries
+Whis ie aye perseating ind here
+
+The spastiral in a pepper in the ther ind ead of a sumper
+In the hire ase
+resenting ind the beat
+Of stirning hore aller,
+Comes aning in the sear
+sesterbing in and,
+The parsing in a les,
+The pasting in a les appeas pears
+And the pacele and rever ineas
+Eyee bet and the pirder in the the the minth in the beace
+The spaplor
+What in the tired dorre the ain the the t
+
+Epoch: 70
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 1.0272
+peath
+And the findes to the handy the summes
+Whith ond halks and end and stands the suming
+Whacp of their ithersust the sunce and chimmen the sumes,
+The minming chidds theing,
+
+And bet athir thadds the figeded and stind the summer
+Will ofe the air and the hirdes to the seake
+Whese memming in the shears
+Till brouzd the sindes
+With the the town the soof foremang
+What sement
+lovestire countice the right fares
+Anding
+What the the pandes strees
+Theee ment in this hears the bireati
+
+Epoch: 71
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 1.0211
+y and coll of ligt
+On the wird's sortherere, whe lone walks move and sood the sur sears and herour wist
+And the cores ay your mas all love
+Of the to merber of the orelly whith of hear
+And the toee love who hears of his mome
+Of the trees, free the monder my heart of eren
+And the love were your ond the houl ele whe hear our and the mast,
+The clatt, and the heares love the moves in the heart of the warth of homes
+In the towe lyey from har somedey me shears of the bren are hearedourey the mo
+
+Epoch: 72
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 0.9229
+he the sunsesteres the sun suntice times
+And the pareyers, to sind their there stollser,
+Wort to her of their renthes, tremstrortions seapunulestere cersuls to the srapest, ceach to seater,
+There the sunnather torestere the sunses, the tires of their deresterest to srofered the sunses, certice loke trees the sun levers,
+And the frents corlles,,, sromine sours of their deanstere,
+Cromes of the treen, centrous loveres, s
+The sut of their ererterats of their firther to the seep, and the seath
+
+Epoch: 73
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.9029
+n the sineles srikes a walk me light in theee, the sirligh and the treen sing fares
+Will ment at the street the irrestirs and the heraly calls the gires and the hires and the slall whir wall
+And the the silles ar in a ser the rarnight
+On the rige the wert the sall the great the girtees the slame with whe trees like a ray ast reer then alleer,
+Mosing in the sllol whir
+Hik where the trees are sre the ranged in the ralles like a way breeed theiriles the sun there wirl grewhad bell mere ath
+
+Epoch: 74
+
+Epoch 1/1
+200/307 [==================>...........] - ETA: 4s - loss: 0.9094^[[A
+307/307 [==============================] - 12s - loss: 0.8815
+:
+On the dourted bron a who kour
+Wing in the thers arounday brammer
+Whene the manns anoundes the runge
+On the degroor of har more
+Whe sullles,
+to the their the hear of head and the sun the lestering in a ken the runder mikes myor,
+The sun ene the reaver  here mine and the sumunter in the beder will the gard tones the pering inde clocling like a bryor
+Whan she burns in the sheal to heaven
+Whes in the sunning in the seall ale mes and the deant
+Where wat in o ren and the sun ane shis ce
+
+Epoch: 75
+
+Epoch 1/1
+307/307 [==============================] - 14s - loss: 0.7934
+F the senses  frees my air my live
+ mach is peave
+destring in the well the toum neme the peaves
+In town the beath scace,
+Laving my marsent the rearth of the field deart of pesten penderion.
+
+In the burted the truet of the pemont of hears,
+The lint, my bears and seppers to semper
+lowe we he the tours in is perol
+We sun prom
+Will and the tears of the perseatu he prast
+Were at is peape of pirding to fine
+The semper of the perned the hom sell to peasun,
+The tre the tore to seas of
+
+Epoch: 76
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.7696
+x
+The rast of love the towe deseres s if fremy
+Will mat my heart of the resthis is broker my birthday the hast your cristing
+With sle wet fremmy
+Whest in the hast wat ind the tided deares
+And the trees like towtry cryeshered the rouns
+Whith their featt on the end
+The rast of the tremy
+What s mamey aring to the sed your crasss andeeceld the sest of hes fremmy here tremhith thest of the tempertureed the figh birth
+Whowe exterting tomeshere custurned the blike a brikhone hegther modes if t
+
+Epoch: 77
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.7549
+peate and rear comes,
+And she ane some fome
+The peaples like ded ward sead deen come deed dremminer moke whind shemed like a mammoone and seeper over som she premm whill
+Whos's ale the seed weld mere whill in his bean
+The sumper's aress where ne whe heer momes lofe
+Thous de ere seed nood deed me berord.
+
+
+
+
+
+Why should the seever of feed ined sheme were meme morm
+Whe pade ale saes anger mear be of hememend--
+Mo
+
+Whould deee sees seed whe hear wein the simen
+Whild s mepher
+W
+
+Epoch: 78
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.7236
+gere freep
+In the lonell grear,
+Still tien in the lorg--
+What nower pild begond tones bronder the ranty freet your and the terder burlle
+An appering like leror,
+The sun y thes lovell gree,
+In the lither thalllor,
+The tore folllovel, or horie bursen like our ligh dingrest,
+The rooning dour, beere I sun love which lled,
+The long minhilly, berarie like our mede
+
+
+
+Whats inge ghe beand-- of toul filly on a seake
+There were the beoor of pisterbert of the feneles creed to foor the bu
+
+Epoch: 79
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.6769
+x
+The rastoral brongh and under the roal   ill gren nor son, no
+Whour dringarare aro wall the gaterance
+The mond the son an walks mact and the pades
+And the green of hording than hat were
+Pracs dide and she fune of live
+
+And the ronels from has bey
+And the eaculas arourd the rimes
+In the figeles
+Of the treen graesing and the sun loke s allon,
+That in through that of the lock and the panely lover thand.
+They herarded dourted the toun wands mare and rear and the sumen the tour wat fut
+
+Epoch: 80
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.6082
+Wing wist wist in the tires
+Bores
+The soot of live trent ware of roving
+And the tire worl of e s mane of tome reath
+Wisting in the wire dover of hark of his to fratire
+And the goods
+Of sing to his lith in that you
+The tod in the hire in this ig will the gatt of ever of head when to singing this ie the igear granging
+Wour it their deats from in a shour is the rard the touth of his fof he reat with tire a sung in a rour as s seation of pire to hirgirion of owe
+
+Hace of the pores  ho liv
+
+Epoch: 81
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.6291
+he and cature was briening in the sald the sun acriess,
+The summingingicher, arover life and spppesies
+Whicl our alivers of wisting in a sealloos a   waik on earing and this is the pirtud bumpe,
+The calls, maringay but semps
+Lich pichour of ineagen the ristediys
+And borce and upploos. The chills suriling astindee sun sumples
+And the place to head menter in and semes.
+The chuck our andions toen alight uach burs.
+The lige the semong-expepped in the seas,
+The cince and shistening in the s
+
+Epoch: 82
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.5489
+)
+The saldos as the the anderes
+Whass in the sundes of the festorads stald an the fonedes
+And on the forests
+To the sas lover sondest,
+The some and the seads of the sendestend tored
+Wo stout noweles, seedes and fot to corsen
+To spather on the toun deaver soves and toon
+The sundestenceresters of to fone
+
+The sadestare toredathe heronds
+ko sowning to sinder that towns of the semont---Houd to the seneres couth seast,
+Coves of the ses, the town awere atradstang-
+The surded and the foons o
+
+Epoch: 83
+
+Epoch 1/1
+307/307 [==============================] - 13s - loss: 0.5609
+Ke the mast whith mom well
+Wist hist forts mertude the monding woth wast wat fith aid the toud swams wher  wome with the same off thim semburum the tawe of  hear commers,
+Who houd deep the  wowd wat wheth mests aft the mant and the samant fout
+The sug whis de treem wore and the summs and the sumes wert in the houd dees streed with summ bers bead and chist of the sun sungingicalass burons
+That dedes we the tout wead wet whet wattr of and the the towes
+And the mones wore head the man wa
+
+Epoch: 84
+
+Epoch 1/1
+307/307 [==============================] - 14s - loss: 0.4795
+Ling hear when you srokes it wher with sunoutherslemes.
+
+Whe sloof of loves the tomes of the mommoth the toun on hes some treet the mindy brins all of theaturunderestepperoors sook fremmatt whith on the tientoon, the stence chat sucher ly like on the the phoserenthe treeming were whall mormath at they,
+Ancers, she rover the slomon on his homes.
+The the creans's whore the hon bloss.
+The trees the suncouther town broond sloke tre the sane of reves
+When illestrom horizon
+And the tore wole fre
+
+Epoch: 85
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.5075
+Ving in the blisting
+Onright
+  in ing in the blick boy
+Of it in in old miriot of her ond the tores
+Wo he ond to sind the bordinia
+rike tone to errer.
+
+ho s all to sund to the bets.
+
+But stinging to blonking to herrenthit indoly to hore to lind the monich of the dinding cour.
+
+Ind to live like a bright in the blith of hame
+The tire on the rearing fore
+Whist ond the birdes dours
+The lling in the derin a wind
+the bligh and the gurning to froat
+Th ore to hin to my berend
+On under to si
+
+Epoch: 86
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.4191
+t is one clilding and the demon ofores merning in the stt lover stold in a head dack laver myonding Inder to s alo he
+The gud in the wald geld of my firthdad
+And of the peatood de or hed of the ime anionc
+The greanging
+Bon belong in move, whot indat bucr as live      old mod in a llinss cont if the ded of thiid ing.
+Intint
+And the come of of ded.
+The alr the foom the tommmmant in the patt of the memmem.
+The mamm the gut adone cromppering soace
+Istence
+Sumerong in the flom of the
+
+Epoch: 87
+
+Epoch 1/1
+307/307 [==============================] - 12s - loss: 0.4389
+The creats shake and cotter and the fame our fome
+The crast of the reath and encemy whis s marving in the the seanon,
+Couther of enerang un the wat your ence
+The cares of ruves and the theer thacked yown to s
+The trees, the seang and the thick nithen
+
+Eagr ware on the peving toan at your face
+In the walls my burlay y
+The te weres my there
+From tree to her the towns
+That wase   rive and the tine coneder s
+The rang in the sen,
+The treet of sparns and the thieth of heads
+What in the
+
+Epoch: 88
+
+Epoch 1/1
+307/307 [==============================] - 11s - loss: 0.3756
+bere
+An the hove on the ieded grat ard like a thir
+
+Sach burs of exers.
+The singing in a loss, a send oor houding
+Wis wall of theiged,
+And the encely so serker more of the inders crieded and the onteroy,
+That dowe ather tores tre firtins stone
+The mondes thristing wond aney of some cole to hid one helf the reart of his jey
+And the fanter of siding
+What wall of peagh
+And the The sen of the deatt of their bonds the fined dour avivel son s mering
+Wit wis wet rear from tree tream bronds t

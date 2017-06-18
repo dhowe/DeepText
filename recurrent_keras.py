@@ -39,7 +39,8 @@ X, y, VOCAB_SIZE, ix_to_char = load_data(DATA_DIR, SEQ_LENGTH)
 print("Creating and compiling the Network")
 
 model = Sequential()
-model.add(LSTM(HIDDEN_DIM, input_shape=(None, VOCAB_SIZE), return_sequences=True))
+model.add(LSTM(HIDDEN_DIM, input_shape=(
+    None, VOCAB_SIZE), return_sequences=True))
 for i in range(LAYER_NUM - 1):
   model.add(LSTM(HIDDEN_DIM, return_sequences=True))
 model.add(TimeDistributed(Dense(VOCAB_SIZE)))
@@ -50,6 +51,7 @@ print("Generating a sample before training...")
 generate_text(model, args['generate_length'], VOCAB_SIZE, ix_to_char)
 
 if not WEIGHTS == '':
+  print("Loading weights...")
   model.load_weights(WEIGHTS)
   nb_epoch = int(WEIGHTS[WEIGHTS.rfind('_') + 1:WEIGHTS.find('.')])
 else:
@@ -63,11 +65,13 @@ if args['mode'] == 'train' or WEIGHTS == '':
     nb_epoch += 1
     generate_text(model, GENERATE_LENGTH, VOCAB_SIZE, ix_to_char)
     if nb_epoch % 10 == 0:
-      model.save_weights('checkpoint_layer_{}_hidden_{}_epoch_{}.hdf5'.format(LAYER_NUM, HIDDEN_DIM, nb_epoch))
+      model.save_weights('checkpoint_layer_{}_hidden_{}_epoch_{}.hdf5'.format(
+          LAYER_NUM, HIDDEN_DIM, nb_epoch))
 
 # Else, loading the trained weights and performing generation only
 elif WEIGHTS == '':
   # Loading the trained weights
+  print("Loading trained weights...")
   model.load_weights(WEIGHTS)
   generate_text(model, GENERATE_LENGTH, VOCAB_SIZE, ix_to_char)
   print('\n\n')
